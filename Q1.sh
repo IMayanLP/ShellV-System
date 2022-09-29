@@ -1,7 +1,20 @@
 #!/bin/bash
-echo "Digite o primeiro número: "
+clear
+red="\033[0;31m"
+redf="\033[0m"
+
+echo -e "$red"
+echo "Exercício 4
+
+
+Exemplo:"
+
+echo -e "$redf"
+
+
+echo -n "Digite o primeiro número: "
 read NUM1
-echo "Digite o segundo número: "
+echo -n "Digite o segundo número: "
 read NUM2
 
 if [ "$NUM1" -gt "$NUM2" ]
@@ -12,3 +25,4 @@ else
 fi
 
 echo "Soma dos numeros: $(($NUM1+$NUM2))"
+sleep 5s
