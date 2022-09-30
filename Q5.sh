@@ -26,4 +26,3 @@ then
 else
     echo "Arquivo não existe"
 fi
-sleep 5s

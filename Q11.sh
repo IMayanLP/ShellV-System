@@ -40,4 +40,3 @@ if test "$OP" = "/"
 then
     echo "$NUM1/$NUM2 = $(($NUM1/$NUM2))"
 fi
-sleep 5s

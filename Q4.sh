@@ -24,4 +24,3 @@ do
     fi
     ((i=i+1))
 done
-sleep 5s

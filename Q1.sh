@@ -25,4 +25,3 @@ else
 fi
 
 echo "Soma dos numeros: $(($NUM1+$NUM2))"
-sleep 5s

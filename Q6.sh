@@ -48,4 +48,3 @@ do
     *) echo "Opção Inválida!" ;;
     esac
 done
-sleep 5s

@@ -27,4 +27,3 @@ then
 else
 	echo "$NOME não é um usuário cadastrado"
 fi
-sleep 5s
