@@ -4,10 +4,16 @@ red="\033[0;31m"
 redf="\033[0m"
 
 echo -e "$red"
-echo "Exercício 4
+echo "Exercício 1
+Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: 
+- O maior dos números recebidos
+- O somatório dos números recebidos
 
-
-Exemplo:"
+Exemplo:
+Digite o primeiro número: 23
+Digite o segundo número: 14
+O maior é: 23
+Soma dos numeros: 37"
 
 echo -e "$redf"
 
@@ -25,4 +31,3 @@ else
 fi
 
 echo "Soma dos numeros: $(($NUM1+$NUM2))"
-sleep 5s

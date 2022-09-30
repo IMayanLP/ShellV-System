@@ -16,5 +16,3 @@ echo -e "$redf"
 
 echo 
 cat /etc/passwd | sed 's/:/ /g' | awk '{print $1" =>",$6}'
-
-sleep 5s

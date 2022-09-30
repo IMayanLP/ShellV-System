@@ -24,4 +24,3 @@ USADO=($(xargs -n 1 <<< ${!shells[@]} | sort -nr | head -1))
 NUM=($(xargs -n 1 <<< ${shells[@]} | sort -nr | head -1))
 echo "$USADO -> $NUM usuários"
 
-sleep 5s

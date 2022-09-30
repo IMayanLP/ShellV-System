@@ -31,4 +31,3 @@ then
 else
     echo "O arquivo passado não é diretório ou não existe"
 fi
-sleep 5s
