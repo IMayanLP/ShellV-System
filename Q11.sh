@@ -2,6 +2,9 @@
 clear
 red="\033[0;31m"
 redf="\033[0m"
+azu="\033[0;34m"
+ver="\033[0;32m"
+ama="\033[0;33m"
 
 echo -e "$red"
 echo "Exercício 11
@@ -14,15 +17,33 @@ Escolha uma das operações (+) (-) (x) (/):  x
 Digite o segundo número: 12
 12 x 2 = 24"
 
-
 echo -e "$redf"
 
-echo -n "Digite o primeiro número: "
-read NUM1
-echo -n "Escolha uma das operações (+) (-) (x) (/):  "
-read OP
-echo -n "Digite o segundo número: "
-read NUM2
+read -p "Digite o primeiro número: " NUM1
+while [[ "$NUM1" =~ [^0-9] || -z "$NUM1" ]]
+do        
+   echo -e "$azu -Tente novamente com um NÚMERO- $redf" 
+   echo    
+   read -p "Digite o primeiro número: " NUM1
+done
+
+read -p "Escolha uma das operações (+) (-) (x) (/):  " OP
+while [[ ( "$OP" =~ [^+] && "$OP" =~ [^-] && "$OP" =~ [^x] && "$OP" =~ [^/] ) || -z "$OP" ]]
+do        
+   echo -e "$ama -Preste atenção nas operações- $redf"    
+   echo 
+   read -p "Escolha uma das operações (+) (-) (x) (/):  " OP
+done
+
+
+read -p "Digite o segundo número: " NUM2
+while [[ "$NUM2" =~ [^0-9] || -z "$NUM2" ]]
+do        
+   echo -e "$ver -Tente novamente com um NÚMERO- $redf"    
+   echo 
+   read -p "Digite o segundo número: " NUM2
+done
+
 
 if test "$OP" = "+"
 then

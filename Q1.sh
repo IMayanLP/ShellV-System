@@ -2,20 +2,37 @@
 clear
 red="\033[0;31m"
 redf="\033[0m"
+azu="\033[0;34m"
+ver="\033[0;32m"
 
 echo -e "$red"
-echo "Exercício 4
+echo "Exercício 1
+Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: 
+- O maior dos números recebidos
+- O somatório dos números recebidos
 
-
-Exemplo:"
-
+Exemplo:
+Digite o primeiro número: 23
+Digite o segundo número: 14
+O maior é: 23
+Soma dos numeros: 37"
 echo -e "$redf"
 
+read -p "Digite o primeiro número: " NUM1
+while [[ "$NUM1" =~ [^0-9] || -z "$NUM1" ]]
+do        
+   echo -e "$azu -Tente novamente com um NÚMERO- $redf" 
+   echo    
+   read -p "Digite o primeiro número: " NUM1
+done
 
-echo -n "Digite o primeiro número: "
-read NUM1
-echo -n "Digite o segundo número: "
-read NUM2
+read -p "Digite o segundo número: " NUM2
+while [[ "$NUM2" =~ [^0-9] || -z "$NUM2" ]]
+do        
+   echo -e "$ver -Tente novamente com um NÚMERO- $redf"    
+   echo 
+   read -p "Digite o segundo número: " NUM2
+done
 
 if [ "$NUM1" -gt "$NUM2" ]
 then

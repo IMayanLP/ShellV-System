@@ -1,6 +1,7 @@
 #!/bin/bash
 red="\033[0;31m"
 redf="\033[0m"
+azu="\033[0;34m"
 
 echo -e "$red"
 echo "Exercício 4
@@ -11,9 +12,14 @@ Digite o número: 10
 0 2 4 6 8 10"
 echo -e "$redf"
 
-echo
-echo -n "Digite um número: "
-read NUM
+read -p "Digite um número: " NUM
+while [[ "$NUM" =~ [^0-9] || -z "$NUM" ]]
+do        
+   echo -e "$azu -Tente novamente com um NÚMERO- $redf" 
+   echo    
+   read -p "Digite umo número: " NUM
+done
+
 i=0
 NUM=$(($NUM+1))
 while [ $i -ne $NUM ]
