@@ -31,47 +31,25 @@ Diversão e alegria, apenas...
 Você pode fazer o download rapidamente clicando [AQUI](https://github.com/IMayanLP/ShellV-System/archive/refs/heads/main.zip)
 
 ## Nossa equipe
-
-<div class="row">
-  <div class="coluna">
-    <h3>Camila Vanessa</h3>
-  </div>
-  <div class="coluna">
-    <h3>Icaro Mayan</h3>
-  </div>
-</div>
-<div class="row">
-  <div class="coluna">
-    <img src="src/milamatos.png" alt="MilaMatos" width="300"/>
-  </div>
-  <div class="coluna">
-    <img src="src/imayanlp.png" alt="IMayanLP" width="300"/>
-  </div>
-</div>
-<div class="row">
-  <div class="coluna">
-    <div> 
+<table style="width:100%">
+  <tr>
+    <td>Camila Vanessa</td>
+    <td>Icaro Mayan</td>
+  </tr>
+  <tr>
+    <th><img src="src/milamatos.png" alt="IMayanLP" width="300"/></th>
+    <th><img src="src/imayanlp.png" alt="IMayanLP" width="300"/></th>
+  </tr>
+  <tr>
+    <th>
         <a href="https://www.instagram.com/camilavanessa.matos/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
         <a href="https://discord.com/channels/MilaMatos#4761" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
         <a href="mailto:cvanessamatos@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    </div>
-  </div>
-  <div class="coluna">
-    <div> 
+    </th>
+    <th>
         <a href="https://www.instagram.com/mayan_lp/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
         <a href="https://discord.com/channels/IMayanLP#3850" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
         <a href="mailto:mayan20119@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    </div>
-  </div>
-</div>
-
-<style>
-.coluna{
-  float: left;
-  width: 50%;
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
+    </th>
+  </tr>
+</table>
