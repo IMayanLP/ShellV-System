@@ -32,14 +32,14 @@ Você pode fazer o download rapidamente clicando [AQUI](https://github.com/IMaya
 
 ## Nossa equipe
 Camila Vanessa
-![menu](src/milamatos.png =250x250)
+<img src="src/milamatos.png" alt="drawing" width="250"/>
 <div> 
   <a href="https://www.instagram.com/camilavanessa.matos/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://discord.com/channels/MilaMatos#4761" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:cvanessamatos@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 Icaro Mayan
-![menu](src/imayanlp.png =250x250)
+<img src="src/imayanlp.png" alt="drawing" width="250"/>
 <div> 
   <a href="https://www.instagram.com/mayan_lp/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://discord.com/channels/IMayanLP#3850" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
