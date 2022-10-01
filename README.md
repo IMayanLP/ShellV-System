@@ -10,7 +10,8 @@ Sinta-se a vontade para fazer suas próprias versões, pois os enunciados estão
 ![menu](src/q1.jpg)
 
 ## Fácil de usar
-Rápido para testar e simples de entender
+- Rápido para testar
+- Simples de entender
 ![menu](src/exemplo.gif)
 
 ## Não tente burlar o sistema, parceiro >:(
@@ -20,6 +21,7 @@ Rápido para testar e simples de entender
 ## E o melhor de tudo, coloridinho
 Diversão e alegria, apenas...
 > As cores na pintura **(ou programa)** são como chamarizes que seduzem os olhos, como a beleza dos versos de poesia.
+
 ![menu](src/menu-animado.gif)
 
 ## Se interessou pelo nosso projeto?
