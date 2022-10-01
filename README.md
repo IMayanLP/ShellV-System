@@ -7,15 +7,18 @@ Estudem a vontade amigos :D
 
 ## Várias questões preparadas para seu estudo e prática
 Sinta-se a vontade para fazer suas próprias versões, pois os enunciados estão listados em suas respectivas questões
+
 ![menu](src/q1.jpg)
 
 ## Fácil de usar
 - Rápido para testar
 - Simples de entender
+
 ![menu](src/exemplo.gif)
 
 ## Não tente burlar o sistema, parceiro >:(
 **Mas**, se conseguir, estamos abertos a correções
+
 ![menu](src/erro.jpg)
 
 ## E o melhor de tudo, coloridinho
