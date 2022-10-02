@@ -13,8 +13,8 @@ informação dos dias da semana em que há aulas de TETI, produza todas as respe
 ministradas nossas aulas.
 
 Exemplo:
-Digite a data inicial: 2008/02/07
-Digite a data final: 2008/07/05
+Digite a data inicial: 2008/02/07 (Ano/Mês/Dia)
+Digite a data final: 2008/07/05 (Ano/Mês/Dia)
 Digite os dias da semana: 1,3
 
 Resultado: 11/02/2008, 13/02/2008, 18/02/2008, 20/02/2008, 25/02/2008, 27/02/2008, 03/03/2008, 05/03/2008, ..."
